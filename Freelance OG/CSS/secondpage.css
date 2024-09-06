@@ -1,0 +1,58 @@
+.curved-box{
+    background-color: rgb(253, 211, 253);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inside-box{
+    height: auto;
+    width: 1500px;
+    border-radius: 80px;
+}
+.how{
+    border-radius: 79px;
+    box-shadow: 2px 2px 100px rgb(162, 0, 255);
+    margin-left: 50px;
+}
+.inside-box h1{
+    margin-left: 100px;
+    font-weight: 900;
+    margin-right:55px ;
+}
+.academy{
+    aspect-ratio: 1/1;
+}
+.how:hover{
+    box-shadow: 2px 2px 120px rgb(12, 178, 255);
+}
+@media screen and (max-width:500px){
+    .inside-box{
+        padding: 10px;
+    }
+    .inside-box img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:800px){
+    .inside-box{
+        padding: 5px;
+        
+    }
+    .inside-box img{
+        width: 100%;
+        height: auto;
+    
+    }
+}
+@media screen and (max-width:1000px){
+    .inside-box{
+        padding: 5px;
+    }
+    .inside-box img{
+        width: 100%;
+        height: auto;
+    }
+}

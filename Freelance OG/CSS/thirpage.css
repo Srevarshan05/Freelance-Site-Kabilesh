@@ -1,0 +1,10 @@
+.curved-box1{
+    background-color:rgb(255, 209, 255) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
